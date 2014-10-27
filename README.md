@@ -68,8 +68,6 @@ adduser --system --no-create-home --disabled-login --disabled-password --group n
 
 ##### Download and set up nginx init script. 
 ```
-cd /usr/share/downloads
-
 wget https://raw.githubusercontent.com/greenzwiz/ubuntu-init-nginx/master/nginx -O /etc/init.d/nginx
 
 chmod +x /etc/init.d/nginx
