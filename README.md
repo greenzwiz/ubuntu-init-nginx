@@ -59,6 +59,21 @@ make && make install
 ```
 nano /etc/nginx/conf/nginx.conf 
 ```
-Copy and replace everything is that file with my nginx.conf file found [here](https://github.com/greenzwiz)
+Copy and replace everything in that file with my nginx.conf file found [here](https://github.com/greenzwiz)
 
+##### Set up nginx user and group.
+```
+adduser --system --no-create-home --disabled-login --disabled-password --group nginx 
+```
+
+##### Download and set up nginx init script. 
+```
+cd /usr/share/downloads
+
+wget https://raw.githubusercontent.com/greenzwiz/ubuntu-init-nginx/master/nginx -O /etc/init.d/nginx
+
+chmod +x /etc/init.d/nginx
+
+/usr/sbin/update-rc.d -f nginx defaults 
+```
 
