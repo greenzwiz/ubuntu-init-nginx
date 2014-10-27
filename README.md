@@ -5,7 +5,7 @@ Description: This is my custom nginx init script for ubuntu server 14.04.1 based
 
 Installation and usage 
 =================
-Note: This script is intended for use with my nginx configuration files, which can be found [here]|(https://github.com/greenzwiz).
+Note: This script is intended for use with my nginx configuration files, which can be found [here](https://github.com/greenzwiz).
 
 ##### Make downloads folder to store files. 
 ```mkdir -p /usr/share/downloads```
