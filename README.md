@@ -25,7 +25,7 @@ mkdir -p /usr/share/downloads
 cd /usr/share/downloads
 ```
 
-##### Download and extract nginx version 1.6.2 
+##### Download and extract nginx version 1.6.2.
 ```
 wget http://nginx.org/download/nginx-1.6.2.tar.gz
 
