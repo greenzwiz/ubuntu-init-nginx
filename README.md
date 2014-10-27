@@ -7,6 +7,17 @@ Installation and usage
 =================
 **Note:** This script is intended for use with my nginx configuration files, which can be found [here](https://github.com/greenzwiz).
 
+##### Install essentials.
+```
+apt-get install libpcre3-dev zlib1g-dev -y
+
+apt-get install build-essential -y
+
+apt-get install python-software-properties -y
+
+apt-get install software-properties-common -y
+```
+
 ##### Make downloads folder to store files. 
 ```
 mkdir -p /usr/share/downloads
