@@ -55,4 +55,10 @@ cd nginx-1.6.2
 make && make install
 ```
 
+##### Set up nginx.conf file. 
+```
+nano /etc/nginx/conf/nginx.conf 
+```
+Copy and replace everything is that file with my nginx.conf file found [here](https://github.com/greenzwiz)
+
 
