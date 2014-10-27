@@ -8,9 +8,9 @@ Installation and usage
 **Note:** This script is intended for use with my nginx configuration files, which can be found [here](https://github.com/greenzwiz).
 
 ##### Make downloads folder to store files. 
-```mkdir -p /usr/share/downloads```
+```mkdir -p /usr/share/downloads
 
-```cd /usr/share/downloads```
+cd /usr/share/downloads```
 
 ##### Download and extract nginx version 1.6.2 
 ```wget http://nginx.org/download/nginx-1.6.2.tar.gz```
