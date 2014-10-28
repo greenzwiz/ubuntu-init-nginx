@@ -59,7 +59,7 @@ make && make install
 ```
 nano /etc/nginx/conf/nginx.conf 
 ```
-Copy and replace everything in that file with my nginx.conf file found [here](https://github.com/greenzwiz)
+Copy and replace everything in that file with my nginx.conf file found [here](https://github.com/greenzwiz).
 
 ##### Set up nginx user and group.
 ```
