@@ -93,7 +93,7 @@ TRUE=1                              #boolean
 FALSE=0                             #boolean
 
 lockfile=/var/lock/nginx.lock 
-NGINX_CONF_FILE="$NGINXPATH/conf/nginx.conf"
+NGINX_CONF_FILE="$NGINXPATH/nginx.conf"
 
 #------------------------------------------------------------------------------
 #                               Simple Tests
